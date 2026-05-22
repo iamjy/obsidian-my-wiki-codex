@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "c85c1b7d472e234c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b362166371e6328e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb552ecbf5473f4a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6931f29874d78e58",
+    "type": "split",
+    "children": [
+      {
+        "id": "5826c45611e7492f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75e7b7d9147d7aa5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "4c65d60f4bf0cfa8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e81aa9cfac5f6912",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6aebe2bdd1415c8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "10ffbbc8122739e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57859df7d17b9817",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/ADI, A²B 2.0 공개…SDV 시대 저지연·이더넷 통합·비용 절감 해답.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "ADI, A²B 2.0 공개…SDV 시대 저지연·이더넷 통합·비용 절감 해답 의 백링크"
+            }
+          },
+          {
+            "id": "9f11b08b1180a3a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/ADI, A²B 2.0 공개…SDV 시대 저지연·이더넷 통합·비용 절감 해답.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ADI, A²B 2.0 공개…SDV 시대 저지연·이더넷 통합·비용 절감 해답 의 나가는 링크"
+            }
+          },
+          {
+            "id": "d67b8c868c3517bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "c1e45f85a7a023e6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "f1268960ae0721ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/ADI, A²B 2.0 공개…SDV 시대 저지연·이더넷 통합·비용 절감 해답.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ADI, A²B 2.0 공개…SDV 시대 저지연·이더넷 통합·비용 절감 해답 의 개요"
+            }
+          },
+          {
+            "id": "3f420380f8f4713b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "cb552ecbf5473f4a",
+  "lastOpenFiles": [
+    "wiki/concepts/op-tee-trusted-execution-environment.md",
+    "wiki/concepts/nvidia-jetson-secure-boot-chain.md",
+    "wiki/ingests/2026-05-22-nvidia-jetson-secure-boot.md",
+    "raw/보안 부팅 — NVIDIA Jetson Linux 개발자 가이드.md",
+    "wiki/ingests/2026-05-22-op-tee.md",
+    "raw/OP-TEE.md",
+    "wiki/concepts/platform-enabling-environment.md",
+    "wiki/ingests/2026-05-21-platform-definition-developer-life.md",
+    "raw/개발자의 삶 - 플랫폼이란.md",
+    "wiki/index.md",
+    "wiki/logs/log.md",
+    "wiki/logs",
+    "wiki/projects",
+    "wiki/references",
+    "wiki/concepts/physical-ai-sensor-architecture.md",
+    "wiki/concepts/semantic-mcp.md",
+    "wiki/concepts/physical-ai-edge-sensors.md",
+    "wiki/concepts/edge-ai-inference-semiconductors.md",
+    "wiki/concepts/on-device-ai-laptops.md",
+    "wiki/concepts/embedded-platform-cpu-selection.md",
+    "wiki/concepts/decision-ai-agent.md",
+    "wiki/concepts/automotive-risc-v-shift-left-development.md",
+    "wiki/concepts",
+    "wiki/ingests/2026-05-21-embedded-platform-cpu.md",
+    "wiki/ingests/2026-05-14-edge-ai-inference-semiconductors.md",
+    "wiki/ingests/2026-05-14-automotive-risc-v-shift-left.md",
+    "wiki/ingests/2026-05-10-physical-ai-sensor-architecture.md",
+    "wiki/ingests/2026-05-10-physical-ai-edge-sensors.md",
+    "wiki/ingests/2026-05-10-persistent-compounding-wiki.md",
+    "wiki/ingests/2026-05-10-on-device-ai-laptops.md",
+    "wiki/ingests",
+    "wiki"
+  ]
+}

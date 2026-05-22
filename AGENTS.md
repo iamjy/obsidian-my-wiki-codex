@@ -14,7 +14,7 @@ This repository contains an LLM-maintained second brain based on `llm-wiki.md`. 
 
 ## Required Frontmatter
 
-Every note except `logs/log.md` must start with YAML frontmatter:
+Every note except `wiki/logs/log.md` must start with YAML frontmatter:
 
 ```yaml
 ---
@@ -40,12 +40,12 @@ Use kebab-case filenames. Ingest notes must be date-prefixed: `YYYY-MM-DD-source
 
 ## Folder Routing
 
-- `ingests/`: `ingest` notes.
-- `concepts/`: `concept` notes.
-- `references/`: `reference` notes.
-- `projects/`: `project` notes.
-- `logs/log.md`: chronological `log`.
-- `index.md`: master catalog, updated whenever a note is added.
+- `wiki/ingests/`: `ingest` notes.
+- `wiki/concepts/`: `concept` notes.
+- `wiki/references/`: `reference` notes.
+- `wiki/projects/`: `project` notes.
+- `wiki/logs/log.md`: chronological `log`.
+- `wiki/index.md`: master catalog, updated whenever a note is added.
 - `AGENTS.md`: schema and operating rules for the vault.
 
 ## Ingest Pipeline
@@ -55,13 +55,13 @@ Use kebab-case filenames. Ingest notes must be date-prefixed: `YYYY-MM-DD-source
 3. Create one `ingest` note with complete frontmatter.
 4. Add wikilinks to related notes or concepts.
 5. Update relevant concept, reference, or project notes when needed.
-6. Update `index.md` with the new note and a one-line summary.
-7. Append a timestamped entry to `logs/log.md`.
+6. Update `wiki/index.md` with the new note and a one-line summary.
+7. Append a timestamped entry to `wiki/logs/log.md`.
 
 ## Persistent Operating Rules
 
 - All notes must conform to the schema in `AGENTS.md`.
-- After any vault write, append a timestamped entry to `logs/log.md`.
-- After any new note, update `index.md`.
+- After any vault write, append a timestamped entry to `wiki/logs/log.md`.
+- After any new note, update `wiki/index.md`.
 - If `llm-wiki.md` is ambiguous on a decision, ask before acting.
 - Raw sources are source-of-truth material; do not modify them during ingest.

@@ -12,6 +12,7 @@ source: "ingests/2026-05-10-physical-ai-edge-sensors.md"
 related:
   - "[[2026-05-10-physical-ai-edge-sensors]]"
   - "[[physical-ai-sensor-architecture]]"
+  - "[[edge-ai-inference-semiconductors]]"
 ---
 
 # 피지컬 AI 환경 인식·엣지 센서
@@ -40,3 +41,4 @@ related:
 
 - [[2026-05-10-physical-ai-edge-sensors]]: 환경 인식 센서와 엣지 AI가 휴머노이드 지능을 결정한다는 기사 ingest.
 - [[physical-ai-sensor-architecture]]: 센서 데이터를 제어와 안전으로 연결하는 상위 시스템 설계 개념.
+- [[edge-ai-inference-semiconductors]]: 현장 추론을 처리하는 NPU, AI 가속기, AI SoC 기반 반도체 계층.
